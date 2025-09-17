@@ -1,0 +1,257 @@
+.hero-container {
+    margin: 0px;
+    padding: 0px 30px;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #040200, #891A05);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+}
+
+
+
+.nav-links {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffb347;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.mobile-menu span {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    display: block;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 200px);
+}
+
+.craft {
+    color: rgba(255, 255, 255, 0.05);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 800px;
+}
+
+.main-title {
+    color: white;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 48px;
+    letter-spacing: -1.5%;
+    text-shadow:
+        1px 1px 1px #4B2E05,
+        /* very dark chocolate brown */
+        2px 2px 2px #5C3B0A,
+        3px 3px 4px #704815;
+
+}
+
+.main-title span {
+    display: block;
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    padding: 12px 24px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cta-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.button-icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.cta-button:hover .button-icon {
+    transform: scale(1.1);
+}
+
+/* Description */
+.bullet-container {
+    display: flex;
+    gap: 12px;
+}
+
+.bullet-point {
+    width: 8px;
+    height: 8px;
+    background: white;
+    margin-right: 15px;
+    margin-top: 22px;
+}
+
+.description {
+    display: flex;
+}
+
+.description p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 300;
+    width: 90%;
+}
+
+
+/* Bottom Text */
+.bottom-text {
+    place-self: end;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+    font-weight: 700;
+    opacity: 0.2;
+    letter-spacing: 4px;
+    pointer-events: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .navigation {
+        padding: 24px 32px;
+    }
+
+    .main-content {
+        padding: 72px 32px;
+    }
+
+    .description {
+        margin-left: 32px;
+    }
+
+    .main-title {
+        font-size: 100px;
+    }
+
+    .craft {
+        font-size: 40px;
+    }
+
+    .bottom-text {
+        font-size: 40px;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .main-title {
+        font-size: 80px;
+    }
+
+    .craft {
+        font-size: 35px;
+    }
+
+    .bottom-text {
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .main-content {
+        flex-direction: column;
+        place-items: baseline;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        margin-bottom: 48px;
+    }
+
+    .description {
+        margin-left: 0;
+        max-width: 100%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .navigation {
+        padding: 16px 20px;
+    }
+
+    .main-content {
+        padding: 32px 20px;
+    }
+
+    .main-title {
+        margin-bottom: 32px;
+    }
+
+    .description p {
+        font-size: 14px;
+    }
+
+    .bottom-text {
+        right: 20px;
+        bottom: 20px;
+    }
+}
