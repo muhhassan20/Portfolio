@@ -1,0 +1,139 @@
+.wrap {
+  position: relative;
+  padding: 100px 60px;
+  min-height: 100vh;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 100vh;
+  margin: auto;
+}
+
+.topbar {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.marker img {
+  object-fit: contain;
+  height: 13px;
+  width: 130px;
+}
+
+.case {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.brand {
+  display: flex;
+}
+
+.brand img {
+  height: 130px;
+  object-fit: contain;
+}
+
+.issue {
+  line-height: 30px;
+  color: #C0C0C0;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.issue strong {
+  color: white;
+  font-weight: 500;
+}
+
+.solution {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-self: flex-end;
+}
+
+.solution-head {
+  color: white;
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.solution-text {
+  color: #d1d5db;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.accent {
+  color: #FF4444;
+  font-weight: 400;
+}
+
+.refs {
+  margin-top: 50px;
+}
+
+.refs p {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .solution {
+    padding: 0 50px;
+  }
+  .solution-head {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .solution {
+    padding: 0 20px;
+    width: 100%;
+  }
+  .solution-head {
+    font-size: 32px;
+  }
+  .solution-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .solution-head {
+    font-size: 28px;
+  }
+  .solution-text {
+    font-size: 13px;
+  }
+}

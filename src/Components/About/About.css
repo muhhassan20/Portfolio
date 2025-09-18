@@ -34,6 +34,7 @@
 .about-bottom {
   display: flex;
   flex-direction: column;
+  /* justify-content: end; */
   gap: 30px;
 }
 .about{

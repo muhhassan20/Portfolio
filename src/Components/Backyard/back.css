@@ -1,0 +1,264 @@
+.back-container {
+    position: relative;
+    padding: 0px 60px;
+    font-family: Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-img {
+    position: absolute;
+    margin: auto;
+    height: 100vh;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.background-text-right img {
+    object-fit: contain;
+    height: 13px;
+    width: 130px;
+}
+.work-back-label {
+    color: #BB0A0A;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.back-title {
+    color: #C0C0C0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.milestone-section {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.milestone-border {
+    padding-left: 32px;
+}
+
+.milestone-header {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.project-logo {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.project-logo img {
+    height: 100px;
+    object-fit: contain;
+}
+
+.milestone-year {
+    color: #4ADE80;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.milestone-role {
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.milestone-description {
+    color: #C0C0C0;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.milestone-description strong {
+    color: white;
+    font-weight: 500;
+}
+
+
+.background-text-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.background-text-left {
+    flex: 1;
+}
+
+.large-background-text {
+    color: #374151;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: 0.3;
+    user-select: none;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.background-text-left p {
+    font-size: 30px;
+}
+
+
+/* What we did section */
+.what-we-did-section {
+
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-self: flex-end;
+}
+
+.what-we-did-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.what-we-did-description {
+    color: #d1d5db;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+
+}
+
+.highlight {
+    color: #FF4444;
+    font-weight: 400;
+}
+
+/* Project links */
+.project-links {
+    color: #d1d5db;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.website-link-title {
+    margin-bottom: 20px !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .history-container {
+        padding: 40px 32px;
+    }
+
+    .what-we-did-section {
+        padding: 0 50px;
+    }
+
+    .large-background-text {
+        font-size: 40px;
+    }
+
+    .what-we-did-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .history-container {
+        padding: 30px 24px;
+    }
+
+    .main-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .second-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .what-we-did-section {
+        padding: 0 20px;
+    }
+
+    .what-we-did-title {
+        font-size: 32px;
+    }
+
+    .what-we-did-description {
+        font-size: 14px;
+    }
+
+    .large-background-text {
+        font-size: 30px;
+    }
+
+    .timeline-border {
+        padding-left: 20px;
+    }
+
+    .project-logo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .history-container {
+        padding: 20px 16px;
+    }
+
+    .work-history-label {
+        font-size: 18px;
+    }
+
+    .history-title {
+        font-size: 14px;
+    }
+
+    .what-we-did-title {
+        font-size: 28px;
+    }
+
+    .what-we-did-description {
+        font-size: 13px;
+    }
+
+    .timeline-description {
+        font-size: 12px;
+    }
+
+    .large-background-text {
+        font-size: 24px;
+    }
+}
