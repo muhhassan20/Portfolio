@@ -4,8 +4,8 @@ import "./back.css";
 const back = () => {
     return (
         <div className="back-container">
-            <img  className='bg-img'
-            src="\greenlogo.png" alt="" />
+            <img className='bg-img'
+                src="\greenlogo.png" alt="" />
             <div className="main-content">
                 {/* Header Section */}
                 <div className="header-section">
@@ -26,7 +26,7 @@ const back = () => {
                         <div className="milestone-header">
                             <div className="project-logo">
                                 <img src="\logo.23dd9f6f.svg" alt="Lucky Backyards" />
-                          
+
                             </div>
                         </div>
                         <p className="milestone-description">
@@ -52,18 +52,24 @@ const back = () => {
                     <p >
                         Design Link:
                     </p>
-                    <h5><u>https://www.figma.com/design/0QGPTst9K0ZSLFTmK8JHjU/Luckybackyards-Sellspage?node-id=0-1&p=f&t=brEyoZ1arDs5c29-0</u></h5>
+
+                    <h5>
+                        <a target='_blank' style={{ color: "white" }} href=" https://www.figma.com/design/0QGPTst9K0ZSLFTmK8JHjU/Luckybackyards-Sellspage?node-id=0-1&p=f&t=brEyoZ1arDs5c29-0"> https://www.figma.com/design/0QGPTst9K0ZSLFTmK8JHjU/Luckybackyards-Sellspage?node-id=0-1&p=f&t=brEyoZ1arDs5c29-0</a>
+                    </h5>
                     <br />
                     <p>
                         Website Link:
                     </p>
-                    <h5><u>https://www.luckybackyards.com/</u></h5> 
-                        
-                    
+                    <h5>
+                        <a target='_blank' style={{ color: "white" }} href=" https://www.luckybackyards.com/"> https://www.luckybackyards.com/</a>
+
+                    </h5>
+
+
                 </div>
-                
+
             </div>
-           
+
         </div>
     );
 };

@@ -37,12 +37,12 @@ const Nutrinut = () => {
             <div className="nutri-refs">
                 <p> Design Link:</p>
                 <h5>
-                    <u>Design Link:
-                        https://www.figma.com/design/ok7XICMo4KTqS7WHzT2IYR/Nutrinut-Snacks-%7C-Web-2025?node-id=2114-218&t=KTelDOGZ9hP1HzzO-0</u>
+                    <a href='https://www.figma.com/design/ok7XICMo4KTqS7WHzT2IYR/Nutrinut-Snacks-%7C-Web-2025?node-id=2114-218&t=KTelDOGZ9hP1HzzO-0' style={{color:'white'}}> 
+                        https://www.figma.com/design/ok7XICMo4KTqS7WHzT2IYR/Nutrinut-Snacks-%7C-Web-2025?node-id=2114-218&t=KTelDOGZ9hP1HzzO-0</a>
                 </h5>
                 <p>Website Link:</p>
                 <h5>
-                    <u>https://nutrinutsnacks.com/</u>
+                    <a href='>https://nutrinutsnacks.com/'style={{color:'white'}}>https://nutrinutsnacks.com/</a>
                 </h5>
             </div>
         </div>

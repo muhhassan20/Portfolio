@@ -39,7 +39,7 @@ const Recrooter = () => {
             <div className="recrooter-refs">
                 <p>Website Link:</p>
                 <h5>
-                    <u>https://www.figma.com/design/kyMVKMaA224vUwPOXYHGUd/Recrooters---Figma?node-id=253-6063&t=gFe3pDrmSu9GFFsL-0&fuid=1475832810366378833</u>
+                    <a href='https://recrooter.com/' style={{color:'white'}}>https://recrooter.com/</a>
                 </h5>
             </div>
         </div>

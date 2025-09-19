@@ -31,10 +31,14 @@ const Gamercoin = () => {
             <div className="gamercoin-refs">
                 <p>Design Link:</p>
                 <h5>
-                    <u>
-                        Design Link:Design Link:
-                        https://www.figma.com/design/IhOjlRoN4kqfIO3hpZhk8C/Gamercoin-%7C-UI-UX-Refresh--25?node-id=17-140&p=f&t=KCmMqfYCwCigQMm4-0
-                    </u>
+
+
+
+
+
+                    <a target='_blank' style={{ color: "white" }} href=" https://www.figma.com/design/IhOjlRoN4kqfIO3hpZhk8C/Gamercoin-%7C-UI-UX-Refresh--25?node-id=17-140&p=f&t=KCmMqfYCwCigQMm4-0"> https://www.figma.com/design/IhOjlRoN4kqfIO3hpZhk8C/Gamercoin-%7C-UI-UX-Refresh--25?node-id=17-140&p=f&t=KCmMqfYCwCigQMm4-0 </a>
+
+
                 </h5>
             </div>
         </div>

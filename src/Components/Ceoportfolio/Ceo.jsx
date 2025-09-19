@@ -38,9 +38,10 @@ const Ceo = () => {
             <div className="ceo-refs">
                 <p>Design Link:</p>
                 <h5>
-                    <u>
-                        https://www.figma.com/proto/TxIVyxbbypxfijGHnQxf9I/osama-shiraz-personal-portfolio?node-id=1-156&t=9APmMMuOMxogjQGP-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1
-                    </u>
+                    <a target='_blank' style={{ color: "white" }} href=" https://www.figma.com/proto/TxIVyxbbypxfijGHnQxf9I/osama-shiraz-personal-portfolio?node-id=1-156&t=9APmMMuOMxogjQGP-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1"> https://www.figma.com/proto/TxIVyxbbypxfijGHnQxf9I/osama-shiraz-personal-portfolio?node-id=1-156&t=9APmMMuOMxogjQGP-0&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1</a>
+
+
+
                 </h5>
             </div>
         </div>

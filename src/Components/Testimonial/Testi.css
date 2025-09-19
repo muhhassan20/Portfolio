@@ -1,0 +1,128 @@
+.testi-container {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 40px;
+}
+
+.testi-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testi-about h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.testi-about img {
+  object-fit: contain;
+  height: 13px;
+  width: 130px;
+}
+
+.paragraph p {
+  color: #c0c0c0;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+/* Added testimonial cards styling */
+.testimonial-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.testimonial-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #333;
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-info h4 {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+.card-info img {
+height: 20px;
+width: auto;
+}
+
+.rating-stars {
+  height: 12px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.rating-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.testimonial-text {
+  color: #c0c0c0;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Added responsive design for mobile */
+@media (max-width: 768px) {
+  .testi-container {
+    padding: 20px;
+  }
+
+  .testi-about {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .testi-about h3 {
+    font-size: 36px;
+  }
+
+  .testimonial-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .testimonial-card {
+    padding: 15px;
+  }
+
+  .profile-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .card-info h4 {
+    font-size: 14px;
+  }
+
+  .testimonial-text {
+    font-size: 12px;
+  }
+}

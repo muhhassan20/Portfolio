@@ -1,6 +1,6 @@
 .history-container {
-    padding: 60px 50px ;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 50px ;
+  font-family: Arial, Helvetica, sans-serif;
   min-height: 100vh;
   background-color: black;
   color: white;
@@ -20,10 +20,6 @@
     height: 13px;
     width: 130px;
 }
-.header-section{
-  padding: 2px 40px;
-}
-
 
 .work-history-label {
   color:#FF0000;
@@ -38,7 +34,7 @@
 }
 
 .timeline-section {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   display: flex;
   align-items: flex-start;
 }
@@ -74,6 +70,7 @@
 }
 
 .background-text-right {
+  margin-top: 40px;
 
   display: flex;
   flex-direction: row-reverse;
@@ -93,11 +90,9 @@
   user-select: none;
 }
 
-.second-section {
+.two-section {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 
-.large-background-text-left {
-  margin-bottom: 64px;
-}

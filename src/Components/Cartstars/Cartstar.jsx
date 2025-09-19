@@ -39,13 +39,14 @@ const Cartstars = () => {
             <div className="cartstars-refs">
                 <p>Design Link:</p>
                 <h5>
-                    <u>Design Link:
-                        https://www.figma.com/design/ntxdTOcBQ6VSH5KV2CMBou/CARTSTARS-Figma--Waleed-s-Copy-?node-id=2223-4586&t=IO1JjjwOchA2QYio-0</u>
+
+                    <a target='_blank' style={{color:"white" }} href=" https://www.figma.com/design/ntxdTOcBQ6VSH5KV2CMBou/CARTSTARS-Figma--Waleed-s-Copy-?node-id=2223-4586&t=IO1JjjwOchA2QYio-0"> https://www.figma.com/design/ntxdTOcBQ6VSH5KV2CMBou/CARTSTARS-Figma--Waleed-s-Copy-?node-id=2223-4586&t=IO1JjjwOchA2QYio-0</a>
+
                 </h5>
                 <p>Website Link:</p>
                 <h5>
-                    <u>Website Link:
-                        https://cartstars.com/</u>
+                     <a target='_blank' style={{color:"white" }} href="  https://cartstars.com/"> https://cartstars.com/</a>
+                    
                 </h5>
             </div>
         </div>

@@ -40,9 +40,9 @@ const Obs = () => {
             <div className="obs-refs">
                 <p>Website Link:</p>
                 <h5>
-                    <u>
+                    <a href='https://www.obstechnologia.com/' style={{color:'white'}}>
                         https://www.obstechnologia.com/
-                                            </u>
+                                            </a>
                                         </h5>
                                     </div>
                                 </div>

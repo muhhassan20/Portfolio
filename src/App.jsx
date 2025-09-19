@@ -12,6 +12,9 @@ import Cartstars from'./Components/Cartstars/Cartstar'
 import GamerCoin from './Components/Gamercoin/Gamercoin'
 import Ceoportfolio from'./Components/Ceoportfolio/Ceo'
 import Obs from './Components/Obs/Obs'
+import Ohs from './Components/Ohs/ohs'
+import Testimonial from'./Components/Testimonial/Testi'
+import Projects from'./Components/Projects/Projects'
 const App = () => {
   return (
     <>
@@ -24,10 +27,14 @@ const App = () => {
       <Realeastate/>
       <Nutrinut/>
       <Recrooter/>
+      <Ohs/>
       <Cartstars/>
       <GamerCoin/>
       <Ceoportfolio/>
       <Obs/>
+      <Projects/>
+      <Testimonial/>
+
     </>
   )
 }

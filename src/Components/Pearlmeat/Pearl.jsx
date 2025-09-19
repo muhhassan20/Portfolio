@@ -42,8 +42,8 @@ const Pearl = () => {
             <div className="links">
                 <p>Website Link:</p>
                 <h5>
-                    <u>Website Link:
-                        https://www.pearlmeat.com/</u>
+                    <a href='https://ww.pearlmeat.com' style={{color:'white'}}>
+                        https://www.pearlmeat.com/</a>
                 </h5>
             </div>
         </div>

@@ -36,7 +36,7 @@ const index = () => {
             <div className="refs">
                 <p>Website Link:</p>
                 <h5>
-                    <u>https://yunahomes.com/</u>
+                    <a href='https://yunahomes.com' style={{color:"white"}}>https://yunahomes.com/</a>
                 </h5>
             </div>
         </div>

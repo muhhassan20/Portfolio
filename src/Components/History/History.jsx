@@ -48,7 +48,7 @@ const History = () => {
 
 
             </div>
-            <div className="second-section">
+            <div className="two-section">
                 <div className="background-text-left">
                     <h2 className="large-background-text large-background-text-left">
                         Experience That
